@@ -118,12 +118,12 @@
 // System.Console.WriteLine($"lessonNumber++ + ++weekNumber = {lessonNumber++ + ++weekNumber}");
 // System.Console.WriteLine($"lessonNumber + weekNumber = {lessonNumber + weekNumber}");
 
-System.Console.Write($"Сумма покупки: ");
-double purchaseАmount = double.Parse(System.Console.ReadLine());
-System.Console.Write($"Есть ли карта постоянного клиента (1 - да, 0 - нет): ");
-bool isCard = int.Parse(System.Console.ReadLine()) == 1;
-System.Console.Write($"Количество товаров в чеке: ");
-int quantityGoods = int.Parse(System.Console.ReadLine());
-bool eligibleForDiscount = purchaseАmount >= 3000 && quantityGoods >= 3 || isCard;
-System.Console.WriteLine($"Итоговый результат: {eligibleForDiscount}");
-System.Console.WriteLine($"Как получилось: \n1. {purchaseАmount >= 3000} И {quantityGoods >= 3} = {purchaseАmount >= 3000 && quantityGoods >= 3} \n2. {purchaseАmount >= 3000 && quantityGoods >= 3} ИЛИ {isCard} = {eligibleForDiscount}");
+// System.Console.Write($"Сумма покупки: ");
+// double purchaseАmount = double.Parse(System.Console.ReadLine());
+// System.Console.Write($"Есть ли карта постоянного клиента (1 - да, 0 - нет): ");
+// bool isCard = int.Parse(System.Console.ReadLine()) == 1;
+// System.Console.Write($"Количество товаров в чеке: ");
+// int quantityGoods = int.Parse(System.Console.ReadLine());
+// bool eligibleForDiscount = purchaseАmount >= 3000 && quantityGoods >= 3 || isCard;
+// System.Console.WriteLine($"Итоговый результат: {eligibleForDiscount}");
+// System.Console.WriteLine($"Как получилось: \n1. {purchaseАmount >= 3000} И {quantityGoods >= 3} = {purchaseАmount >= 3000 && quantityGoods >= 3} \n2. {purchaseАmount >= 3000 && quantityGoods >= 3} ИЛИ {isCard} = {eligibleForDiscount}");
