@@ -102,9 +102,18 @@
 // Console.WriteLine($"Проходит по правилам: {isEligibleByRules}");
 // Console.WriteLine($"Итоговый балл: {totalScore}");
 
-using System.Runtime.InteropServices;
+// using System.Runtime.InteropServices;
 
-System.Console.Write("Введите целое число: ");
-int Integer = int.Parse(System.Console.ReadLine());
-bool isEven = Integer % 2 == 0;
-System.Console.WriteLine($"Число {Integer} четное: {isEven}");
+// System.Console.Write("Введите целое число: ");
+// int Integer = int.Parse(System.Console.ReadLine());
+// bool isEven = Integer % 2 == 0;
+// System.Console.WriteLine($"Число {Integer} четное: {isEven}");
+
+System.Console.WriteLine("Постфикс");
+int lessonNumber = 5;
+System.Console.WriteLine($"Изначально значение lessonNumber = {lessonNumber}. Значение lessonNumber++ равное {lessonNumber++} после постфикса изменяется в {lessonNumber}");
+System.Console.WriteLine("Префикс");
+int weekNumber = 10;
+System.Console.WriteLine($"Изначально значение weekNumber = {weekNumber}. Значение ++weekNumber равное {++weekNumber} после префикса изменяется в {weekNumber}");
+System.Console.WriteLine($"lessonNumber++ + ++weekNumber = {lessonNumber++ + ++weekNumber}");
+System.Console.WriteLine($"lessonNumber + weekNumber = {lessonNumber + weekNumber}");
